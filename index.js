@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 if (!process.env.OTP_URI) {
 	process.stderr.write('OTP_URI not set.');
 	process.exit(1);

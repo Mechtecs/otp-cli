@@ -20,5 +20,6 @@ The following info is written to stdout without a new line separator:
 ```
 
 ## History
+### 0.1.2 - npx hopefully working
 ### 0.1.0 - initial release
 * basic functionality established
