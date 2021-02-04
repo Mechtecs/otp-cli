@@ -1,18 +1,22 @@
 {
-  "name": "otp-cli",
-  "version": "1.0.0",
+  "name": "totp-magic",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
+  "bin": "./index.js",
   "scripts": {
     "start": "node .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": ["cli", "totp", "otp", "tool"],
+  "author": "Max Schorradt <schorradt@tech-effect.de>",
   "license": "WTFPL",
   "repository": {
     "type" : "git",
-    "url" : "https://github.com/npm/cli.git"
+    "url" : "https://github.com/Mechtecs/totp-magic.git"
   },
   "dependencies": {
     "otpauth": "^6.2.2"
