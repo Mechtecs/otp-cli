@@ -9,7 +9,11 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "WTFPL",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/npm/cli.git"
+  },
   "dependencies": {
     "otpauth": "^6.2.2"
   }
